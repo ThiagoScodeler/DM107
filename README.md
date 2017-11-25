@@ -1,19 +1,19 @@
-##Trabalho DM107 - Desenvolvimento de Web Services com Segurança sob plataforma Java e PHP
+## Trabalho DM107 - Desenvolvimento de Web Services com Segurança sob plataforma Java e PHP
 
-###REST API Serviço de Logística (Entrega)
+### REST API Serviço de Logística (Entrega)
 
 - *Nota: Todos os recursos são implementados com autenticação Basic Auth.*
 
 - Usuários Autorizados (inseridos no BD pelo script database/dblogistica.sql):
 
-Usuário  | Senha  | Senha Base64 Encoded
-------------- | -------------   -------------
-admin  | admin   | YWRtaW46YWRtaW4=
-thiago | thiago  | dGhpYWdvOnRoaWFnbw==
-daniela  | daniela   | ZGFuaWVsYTpkYW5pZWxh
+|Usuário   |  Senha |  Senha Base64 Encoded |
+| ------------ | ------------ | ------------ |
+|  admin | admin  | YWRtaW46YWRtaW4=  |
+|  thiago | thiago  |  dGhpYWdvOnRoaWFnbw== |
+| daniela  | daniela  | ZGFuaWVsYTpkYW5pZWxh   |
 
-###Recursos
-####Criar Entrega
+### Recursos
+#### Criar Entrega
 
 **- URL:**
 
@@ -85,7 +85,7 @@ curl -X POST \
 	"data_hora_entrega": "2017-11-22 15:10:21"
 }'
 ```
-####Listar Entrega pelo Número do Pedido
+#### Listar Entrega pelo Número do Pedido
 
 **- URL:**
 
@@ -133,7 +133,7 @@ curl -X GET \
   -H 'authorization: Basic ZGFuaWVsYTpkYW5pZWxh' \
   -H 'content-type: application/json'
 ```
-####Atualizar Entrega pelo ID da Entrega
+#### Atualizar Entrega pelo ID da Entrega
 
 **- URL:**
 
@@ -211,7 +211,7 @@ curl -X PUT \
 }'
 ```
 
-####Deletar Entrega pelo ID da Entrega
+#### Deletar Entrega pelo ID da Entrega
 
 **- URL:**
 
