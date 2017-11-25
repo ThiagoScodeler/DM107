@@ -33,8 +33,7 @@ Content-type: application/json
 ```sh
 None
 ```
-**- Body:
-**
+**- Body:**
 ```sh
 {
 	"numero_pedido": <numero_pedido>,
@@ -58,10 +57,6 @@ id_cliente
 	"cpf_recebedor": "9876543210",
 	"data_hora_entrega": "2017-11-22 15:10:21"
 }
-```
-**- Data Params:**
-```sh
-None
 ```
 **- Success Response:**
 
@@ -103,10 +98,6 @@ Content-type: application/json
 **- URL Params (Required):**
 ```sh
 id=[integer]
-```
-**- Data Params:**
-```sh
-None
 ```
 **- Success Response:**
 
@@ -178,10 +169,6 @@ data_hora_entrega
 	"data_hora_entrega": "2016-10-20 12:10:21"
 }
 ```
-**- Data Params**:
-```sh
-None
-```
 **- Success Response:**
 
 **Code:** 200 OK
@@ -229,10 +216,6 @@ Content-type: application/json
 **- URL Params (Required):**
 ```sh
 id=[integer]
-```
-**- Data Params:**
-```sh
-None
 ```
 **- Success Response:**
 
